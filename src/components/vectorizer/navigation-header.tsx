@@ -3,6 +3,7 @@
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { LanguageSelector } from '@/components/language-selector'
 
 export function NavigationHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -20,7 +21,7 @@ export function NavigationHeader() {
             </svg>
           </div>
           <span className="text-xl font-bold text-slate-900 dark:text-slate-100">
-            VectorPro AI
+            Vectorize-It
           </span>
         </a>
 
@@ -58,8 +59,9 @@ export function NavigationHeader() {
           </a>
         </nav>
 
-        {/* CTA Button */}
-        <div className="hidden md:block">
+        {/* CTA Button & Language Selector */}
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSelector />
           <Button
             size="sm"
             onClick={() => document.getElementById('upload-section')?.scrollIntoView({ behavior: 'smooth' })}
@@ -118,7 +120,10 @@ export function NavigationHeader() {
             >
               FAQ
             </a>
-            <div className="pt-2">
+            <div className="pt-2 space-y-2">
+              <div className="flex justify-center">
+                <LanguageSelector />
+              </div>
               <Button
                 size="sm"
                 className="w-full bg-emerald-600 hover:bg-emerald-700"

@@ -10,10 +10,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "VectorPro AI - Free Image to SVG Converter | High-Quality Vectorization",
-    template: "%s | VectorPro AI"
+    default: "Vectorize-It - Free Image to SVG Converter | High-Quality Vectorization",
+    template: "%s | Vectorize-It"
   },
-  description: "Transform any image into perfect SVG vectors with VectorPro AI. Free online image to SVG converter with superior quality, supporting PNG, JPG, WEBP. Professional vectorization without watermarks or signup.",
+  description: "Transform any image into perfect SVG vectors with Vectorize-It. Free online image to SVG converter with superior quality, supporting PNG, JPG, WEBP. Professional vectorization without watermarks or signup.",
   keywords: [
     "image to SVG converter",
     "PNG to SVG",
@@ -32,9 +32,25 @@ export const metadata: Metadata = {
     "SVG file compression",
     "vector art creation"
   ],
-  authors: [{ name: "VectorPro AI Team" }],
-  creator: "VectorPro AI",
-  publisher: "VectorPro AI",
+  authors: [{ name: "Vectorize-It Team" }],
+  creator: "Vectorize-It",
+  publisher: "Vectorize-It",
+  metadataBase: new URL('https://vectorize-it.vercel.app'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/',
+      'es-ES': '/es',
+      'fr-FR': '/fr',
+      'de-DE': '/de',
+      'pt-BR': '/pt',
+      'ja-JP': '/ja',
+      'ko-KR': '/ko',
+      'zh-CN': '/zh',
+      'ar-SA': '/ar',
+      'hi-IN': '/hi',
+    },
+  },
   robots: {
     index: true,
     follow: true,
@@ -49,25 +65,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vectorpro.ai",
-    title: "VectorPro AI - Free Image to SVG Converter",
-    description: "Transform any image into perfect SVG vectors with our advanced AI-powered converter. Free, unlimited, no watermarks.",
-    siteName: "VectorPro AI",
+    url: "https://vectorize-it.vercel.app",
+    title: "Vectorize-It - Free Image to SVG Converter",
+    description: "Transform any image into perfect SVG vectors with our advanced converter. Free, unlimited, no watermarks.",
+    siteName: "Vectorize-It",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "VectorPro AI - Image to SVG Converter"
+        alt: "Vectorize-It - Image to SVG Converter"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "VectorPro AI - Free Image to SVG Converter",
+    title: "Vectorize-It - Free Image to SVG Converter",
     description: "Transform any image into perfect SVG vectors. Free, unlimited, no watermarks.",
     images: ["/og-image.png"],
-    creator: "@vectorproai"
+    creator: "@vectorizeitapp"
   },
   icons: {
     icon: "/favicon.ico",
@@ -85,7 +101,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://vectorpro.ai" />
+        <link rel="canonical" href="https://vectorize-it.vercel.app" />
         <meta name="theme-color" content="#10b981" />
         <script
           type="application/ld+json"
@@ -93,7 +109,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "VectorPro AI",
+              "name": "Vectorize-It",
               "applicationCategory": "DesignApplication",
               "operatingSystem": "Web",
               "offers": {
@@ -101,7 +117,7 @@ export default function RootLayout({
                 "price": "0",
                 "priceCurrency": "USD"
               },
-              "description": "Free online image to SVG converter with advanced AI-powered vectorization. Transform PNG, JPG, WEBP images into scalable vector graphics.",
+              "description": "Free online image to SVG converter with advanced vectorization. Transform PNG, JPG, WEBP images into scalable vector graphics.",
               "featureList": [
                 "Image to SVG conversion",
                 "Multiple quality presets",
@@ -110,7 +126,8 @@ export default function RootLayout({
                 "SVG optimization",
                 "No file size limits for processing",
                 "No watermarks",
-                "No signup required"
+                "No signup required",
+                "Multi-language support"
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -118,7 +135,8 @@ export default function RootLayout({
                 "ratingCount": "1250",
                 "bestRating": "5",
                 "worstRating": "1"
-              }
+              },
+              "inLanguage": ["en", "es", "fr", "de", "pt", "ja", "ko", "zh", "ar", "hi"]
             })
           }}
         />
@@ -128,9 +146,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              "name": "VectorPro AI - Free Image to SVG Converter",
-              "description": "Transform any image into perfect SVG vectors with VectorPro AI. Free online image to SVG converter with superior quality.",
-              "url": "https://vectorpro.ai",
+              "name": "Vectorize-It - Free Image to SVG Converter",
+              "description": "Transform any image into perfect SVG vectors with Vectorize-It. Free online image to SVG converter with superior quality.",
+              "url": "https://vectorize-it.vercel.app",
+              "inLanguage": ["en", "es", "fr", "de", "pt", "ja", "ko", "zh", "ar", "hi"],
               "mainEntity": {
                 "@type": "FAQPage",
                 "mainEntity": [
@@ -147,15 +166,15 @@ export default function RootLayout({
                     "name": "What file formats can I convert?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "VectorPro AI supports all common image formats including PNG, JPG/JPEG, WEBP, BMP, and GIF. Simply upload your image and we'll convert it to high-quality SVG format."
+                      "text": "Vectorize-It supports all common image formats including PNG, JPG/JPEG, WEBP, BMP, and GIF. Simply upload your image and we'll convert it to high-quality SVG format."
                     }
                   },
                   {
                     "@type": "Question",
-                    "name": "Is VectorPro AI really free?",
+                    "name": "Is Vectorize-It really free?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes! VectorPro AI is completely free to use with no hidden fees, no signup required, and no watermarks on your downloads. We believe professional-quality vectorization should be accessible to everyone."
+                      "text": "Yes! Vectorize-It is completely free to use with no hidden fees, no signup required, and no watermarks on your downloads. We believe professional-quality vectorization should be accessible to everyone."
                     }
                   }
                 ]

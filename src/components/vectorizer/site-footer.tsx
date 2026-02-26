@@ -11,7 +11,7 @@ export function SiteFooter() {
           {/* Brand */}
           <div className="space-y-3">
             <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
-              VectorPro AI
+              Vectorize-It
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400">
               Professional-quality image vectorization, completely free.
@@ -122,7 +122,7 @@ export function SiteFooter() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="mailto:hello@vectorpro.ai"
+                href="mailto:hello@vectorize-it.com"
                 className="text-slate-600 transition-colors hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
                 aria-label="Email"
               >
@@ -136,7 +136,7 @@ export function SiteFooter() {
 
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-slate-600 dark:text-slate-400">
-            © {new Date().getFullYear()} VectorPro AI. All rights reserved.
+            © {new Date().getFullYear()} Vectorize-It. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
             Made with <Heart className="h-4 w-4 fill-red-500 text-red-500" /> for designers
