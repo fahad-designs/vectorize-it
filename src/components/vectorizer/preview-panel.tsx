@@ -223,7 +223,7 @@ export function PreviewPanel({
                     {/* Note about preview vs actual */}
                     {vectorizedSvg && (
                       <p className="mt-4 text-center text-xs text-slate-500 dark:text-slate-400">
-                        Some converted images may not appear complete here but they are complete in actual - it is okay to download.
+                        SVG previews may appear slightly cropped in preview mode only.
                       </p>
                     )}
                   </motion.div>
