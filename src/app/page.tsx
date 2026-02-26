@@ -26,8 +26,8 @@ export default function Home() {
     quality: 'high',
     colorMode: 'full-color',
     colorSimplification: 'balanced',
-    detailLevel: 75,
-    smoothing: 50,
+    detailLevel: 90,
+    smoothing: 75,
     noiseReduction: true,
     cornerDetection: 70,
     optimizationLevel: 'high'

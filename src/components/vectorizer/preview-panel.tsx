@@ -123,7 +123,7 @@ export function PreviewPanel({
 
           {/* Preview Area */}
           <ScrollArea className="flex-1">
-            <div className="min-h-[400px] bg-slate-100 dark:bg-slate-900">
+            <div className="relative min-h-[400px] bg-slate-100 dark:bg-slate-900">
               <AnimatePresence mode="wait">
                 {!originalImage ? (
                   <motion.div
@@ -144,7 +144,7 @@ export function PreviewPanel({
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="flex items-center justify-center p-8"
+                    className="flex flex-col items-center justify-center p-8"
                   >
                     <div
                       className="relative overflow-hidden rounded-lg border border-slate-200 dark:border-slate-800"
@@ -219,6 +219,13 @@ export function PreviewPanel({
                         </div>
                       )}
                     </div>
+
+                    {/* Note about preview vs actual */}
+                    {vectorizedSvg && (
+                      <p className="mt-4 text-center text-xs text-slate-500 dark:text-slate-400">
+                        Some converted images may not appear complete here but they are complete in actual - it is okay to download.
+                      </p>
+                    )}
                   </motion.div>
                 )}
               </AnimatePresence>
