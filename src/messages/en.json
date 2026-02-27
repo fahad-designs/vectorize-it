@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "VectorProAI",
+    "description": "Free Image to SVG Converter"
+  },
+  "nav": {
+    "convert": "Convert",
+    "howItWorks": "How It Works",
+    "features": "Features",
+    "compare": "Compare",
+    "faq": "FAQ",
+    "startVectorizing": "Start Vectorizing"
+  },
+  "hero": {
+    "title": "Transform Your Images Into Perfect SVG Vectors",
+    "subtitle": "Free online image to SVG converter with superior quality. No watermarks, no signup required.",
+    "cta": "Start Converting"
+  },
+  "tool": {
+    "title": "Convert Your Images to SVG",
+    "subtitle": "Upload any image and watch it transform into a beautiful, scalable vector graphic"
+  },
+  "upload": {
+    "dragDrop": "Drag and drop your image here, or click to browse",
+    "supportedFormats": "Supports PNG, JPG, WEBP, BMP, GIF (max 10MB)",
+    "changeImage": "Change Image",
+    "clear": "Clear"
+  },
+  "settings": {
+    "title": "Settings",
+    "quality": "Quality",
+    "qualityHigh": "High",
+    "qualityMedium": "Medium",
+    "qualityLow": "Low",
+    "colorMode": "Color Mode",
+    "colorFull": "Full Color",
+    "colorGrayscale": "Grayscale",
+    "colorBlackWhite": "Black & White",
+    "colorSimplification": "Color Simplification",
+    "simplificationPrecise": "Precise",
+    "simplificationBalanced": "Balanced",
+    "simplificationSimplified": "Simplified",
+    "detailLevel": "Detail Level",
+    "smoothing": "Smoothing",
+    "noiseReduction": "Noise Reduction",
+    "cornerDetection": "Corner Detection",
+    "optimization": "Optimization Level",
+    "convertButton": "Convert to SVG"
+  },
+  "preview": {
+    "original": "Original",
+    "vectorized": "Vectorized",
+    "note": "SVG previews may appear slightly cropped in preview mode only.",
+    "download": "Download SVG",
+    "downloadAll": "Download All"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Three simple steps to perfect vector graphics",
+    "step1": "Upload Your Image",
+    "step1Desc": "Drag and drop or click to upload your PNG, JPG, or other image format. Supports files up to 10MB.",
+    "step2": "Adjust Settings",
+    "step2Desc": "Choose quality preset, color mode, and fine-tune detail level, smoothing, and optimization.",
+    "step3": "Download SVG",
+    "step3Desc": "Click convert and get your perfectly vectorized SVG in seconds. Edit in any vector software."
+  },
+  "features": {
+    "title": "Why Choose VectorProAI?",
+    "subtitle": "Professional-grade vectorization with cutting-edge technology",
+    "feature1": "Lightning Fast",
+    "feature1Desc": "Convert images to SVG in seconds with our optimized algorithm. No waiting, instant results.",
+    "feature2": "High Quality",
+    "feature2Desc": "Advanced vectorization preserves details and produces clean, professional vectors every time.",
+    "feature3": "Multiple Formats",
+    "feature3Desc": "Support for PNG, JPG, WEBP, BMP, and GIF. Upload any image and get a perfect SVG.",
+    "feature4": "Smart Controls",
+    "feature4Desc": "Fine-tune quality, colors, and details. Get exactly the vector output you need.",
+    "feature5": "No Watermarks",
+    "feature5Desc": "Download clean SVG files without any watermarks. Use them for any purpose, commercial or personal.",
+    "feature6": "Unlimited & Free",
+    "feature6Desc": "No limits on file size or number of conversions. Completely free, forever."
+  },
+  "comparison": {
+    "title": "Compare VectorProAI with Others",
+    "subtitle": "See why professionals choose us",
+    "feature": "Feature",
+    "vectorproai": "VectorProAI",
+    "competitors": "Others",
+    "quality": "Quality",
+    "speed": "Speed",
+    "formats": "File Formats",
+    "watermark": "Watermarks",
+    "signup": "Signup Required",
+    "cost": "Cost",
+    "yes": "Yes",
+    "no": "No",
+    "limited": "Limited",
+    "fast": "Fast",
+    "slow": "Slow",
+    "high": "High",
+    "low": "Low",
+    "free": "Free",
+    "paid": "Paid",
+    "all": "All Formats"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about vectorization",
+    "q1": "What is image vectorization?",
+    "a1": "Image vectorization is the process of converting raster images (made of pixels) into vector graphics (made of mathematical paths). This allows the image to be scaled to any size without losing quality, making it perfect for logos, icons, and print materials.",
+    "q2": "What file formats can I convert?",
+    "a2": "VectorProAI supports all common image formats including PNG, JPG/JPEG, WEBP, BMP, and GIF. Simply upload your image and we'll convert it to high-quality SVG format.",
+    "q3": "Is VectorProAI really free?",
+    "a3": "Yes! VectorProAI is completely free to use with no hidden fees, no signup required, and no watermarks on your downloads. We believe professional-quality vectorization should be accessible to everyone.",
+    "q4": "How long does conversion take?",
+    "a4": "Most conversions complete within 1-3 seconds, depending on the image size and complexity. Our optimized algorithm ensures fast processing without compromising quality.",
+    "q5": "Can I use the SVG for commercial purposes?",
+    "a5": "Absolutely! All SVG files you download from VectorProAI are yours to use for any purpose, including commercial projects, without any attribution required.",
+    "q6": "What should I do if the quality isn't perfect?",
+    "a6": "Try adjusting the quality preset, detail level, and color settings. Higher quality settings with more detail levels will produce better results, though they may take slightly longer to process."
+  },
+  "footer": {
+    "description": "Free online image to SVG converter with advanced vectorization. Transform PNG, JPG, WEBP images into scalable vector graphics.",
+    "convert": "Convert",
+    "howItWorks": "How It Works",
+    "features": "Features",
+    "compare": "Compare",
+    "faq": "FAQ",
+    "language": "Language"
+  },
+  "language": {
+    "select": "Select Language",
+    "switchTo": "Switch to"
+  },
+  "toasts": {
+    "success": "Success!",
+    "error": "Error",
+    "vectorizeSuccess": "Image vectorized successfully!",
+    "vectorizeError": "Failed to vectorize image. Please try again.",
+    "downloadSuccess": "SVG downloaded successfully!",
+    "selectImage": "Please select an image first"
+  }
+}

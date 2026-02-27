@@ -4,25 +4,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://vectorpro.ai'
   const locales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'ar', 'hi']
 
-  const urls: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
-    },
-  ]
+  const urls: MetadataRoute.Sitemap = []
 
-  // Add locale-specific URLs
+  // Add locale-specific URLs for the homepage
   locales.forEach(locale => {
-    if (locale !== 'en') {
-      urls.push({
-        url: `${baseUrl}/${locale}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.8,
-      })
-    }
+    urls.push({
+      url: `${baseUrl}/${locale}`,
+      lastModified: new Date(),
+      changeFrequency: locale === 'en' ? 'daily' : 'weekly',
+      priority: locale === 'en' ? 1 : 0.8,
+    })
   })
 
   return urls
