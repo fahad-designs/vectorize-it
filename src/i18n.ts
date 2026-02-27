@@ -31,14 +31,14 @@ export const localeFlags: Record<Locale, string> = {
 }
 
 export const localeURLs: Record<Locale, string> = {
-  en: 'https://vectorize-it.vercel.app',
-  es: 'https://vectorize-it.vercel.app/es',
-  fr: 'https://vectorize-it.vercel.app/fr',
-  de: 'https://vectorize-it.vercel.app/de',
-  pt: 'https://vectorize-it.vercel.app/pt',
-  ja: 'https://vectorize-it.vercel.app/ja',
-  ko: 'https://vectorize-it.vercel.app/ko',
-  zh: 'https://vectorize-it.vercel.app/zh',
-  ar: 'https://vectorize-it.vercel.app/ar',
-  hi: 'https://vectorize-it.vercel.app/hi'
+  en: 'https://vectorpro.ai',
+  es: 'https://vectorpro.ai/es',
+  fr: 'https://vectorpro.ai/fr',
+  de: 'https://vectorpro.ai/de',
+  pt: 'https://vectorpro.ai/pt',
+  ja: 'https://vectorpro.ai/ja',
+  ko: 'https://vectorpro.ai/ko',
+  zh: 'https://vectorpro.ai/zh',
+  ar: 'https://vectorpro.ai/ar',
+  hi: 'https://vectorpro.ai/hi'
 }

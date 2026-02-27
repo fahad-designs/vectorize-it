@@ -21,7 +21,7 @@ export function NavigationHeader() {
             </svg>
           </div>
           <span className="text-xl font-bold text-slate-900 dark:text-slate-100">
-            Vectorize-It
+            VectorProAI
           </span>
         </a>
 

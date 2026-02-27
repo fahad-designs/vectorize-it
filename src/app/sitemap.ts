@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://vectorize-it.vercel.app'
+  const baseUrl = 'https://vectorpro.ai'
   const locales = ['en', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'zh', 'ar', 'hi']
 
   const urls: MetadataRoute.Sitemap = [

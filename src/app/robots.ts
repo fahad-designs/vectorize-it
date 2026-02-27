@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/', '/static/'],
       },
     ],
-    sitemap: 'https://vectorize-it.vercel.app/sitemap.xml',
+    sitemap: 'https://vectorpro.ai/sitemap.xml',
   }
 }
