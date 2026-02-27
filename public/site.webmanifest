@@ -1,0 +1,18 @@
+{
+  "name": "VectorProAI - Image to SVG Converter",
+  "short_name": "VectorProAI",
+  "description": "Transform any image into perfect SVG vectors with VectorProAI. Free online image to SVG converter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#10b981",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "VectorProAI",
+    "description": "Convertisseur d'Images en SVG Gratuit"
+  },
+  "nav": {
+    "convert": "Convertir",
+    "howItWorks": "Comment Ça Marche",
+    "features": "Fonctionnalités",
+    "compare": "Comparer",
+    "faq": "FAQ",
+    "startVectorizing": "Commencer la Vectorisation"
+  },
+  "hero": {
+    "title": "Transformez Vos Images en Vecteurs SVG Parfaits",
+    "subtitle": "Convertisseur d'images en SVG gratuit en ligne avec une qualité supérieure. Sans filigranes, sans inscription requise.",
+    "cta": "Commencer la Conversion"
+  },
+  "tool": {
+    "title": "Convertissez Vos Images en SVG",
+    "subtitle": "Téléchargez n'importe quelle image et regardez-la se transformer en un graphique vectoriel évolutif magnifique"
+  },
+  "upload": {
+    "dragDrop": "Glissez et déposez votre image ici, ou cliquez pour parcourir",
+    "supportedFormats": "Supporte PNG, JPG, WEBP, BMP, GIF (max 10Mo)",
+    "changeImage": "Changer d'Image",
+    "clear": "Effacer"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "quality": "Qualité",
+    "qualityHigh": "Élevée",
+    "qualityMedium": "Moyenne",
+    "qualityLow": "Faible",
+    "colorMode": "Mode Couleur",
+    "colorFull": "Couleurs Complètes",
+    "colorGrayscale": "Niveaux de Gris",
+    "colorBlackWhite": "Noir et Blanc",
+    "colorSimplification": "Simplification des Couleurs",
+    "simplificationPrecise": "Précise",
+    "simplificationBalanced": "Équilibrée",
+    "simplificationSimplified": "Simplifiée",
+    "detailLevel": "Niveau de Détail",
+    "smoothing": "Lissage",
+    "noiseReduction": "Réduction du Bruit",
+    "cornerDetection": "Détection des Coins",
+    "optimization": "Niveau d'Optimisation",
+    "convertButton": "Convertir en SVG"
+  },
+  "preview": {
+    "original": "Original",
+    "vectorized": "Vectorisé",
+    "note": "Les aperçus SVG peuvent apparaître légèrement rognés uniquement en mode aperçu.",
+    "download": "Télécharger SVG",
+    "downloadAll": "Tout Télécharger"
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "subtitle": "Trois étapes simples pour des graphiques vectoriels parfaits",
+    "step1": "Téléchargez Votre Image",
+    "step1Desc": "Glissez-déposez ou cliquez pour télécharger votre PNG, JPG ou autre format d'image. Supporte les fichiers jusqu'à 10Mo.",
+    "step2": "Ajustez les Paramètres",
+    "step2Desc": "Choisissez le préréglage de qualité, le mode couleur, et ajustez le niveau de détail, le lissage et l'optimisation.",
+    "step3": "Téléchargez le SVG",
+    "step3Desc": "Cliquez sur convertir et obtenez votre SVG parfaitement vectorisé en quelques secondes. Éditez avec n'importe quel logiciel vectoriel."
+  },
+  "features": {
+    "title": "Pourquoi Choisir VectorProAI?",
+    "subtitle": "Vectorisation de qualité professionnelle avec technologie de pointe",
+    "feature1": "Ultra Rapide",
+    "feature1Desc": "Convertissez des images en SVG en quelques secondes avec notre algorithme optimisé. Pas d'attente, résultats instantanés.",
+    "feature2": "Haute Qualité",
+    "feature2Desc": "La vectorisation avancée préserve les détails et produit des vecteurs propres et professionnels à chaque fois.",
+    "feature3": "Formats Multiples",
+    "feature3Desc": "Support pour PNG, JPG, WEBP, BMP et GIF. Téléchargez n'importe quelle image et obtenez un SVG parfait.",
+    "feature4": "Contrôles Intelligents",
+    "feature4Desc": "Ajustez finement la qualité, les couleurs et les détails. Obtenez exactement la sortie vectorielle dont vous avez besoin.",
+    "feature5": "Sans Filigranes",
+    "feature5Desc": "Téléchargez des fichiers SVG propres sans aucun filigrane. Utilisez-les pour n'importe quel but, commercial ou personnel.",
+    "feature6": "Illimité et Gratuit",
+    "feature6Desc": "Aucune limite sur la taille des fichiers ou le nombre de conversions. Entièrement gratuit, pour toujours."
+  },
+  "comparison": {
+    "title": "Comparez VectorProAI avec les Autres",
+    "subtitle": "Découvrez pourquoi les professionnels nous choisissent",
+    "feature": "Fonctionnalité",
+    "vectorproai": "VectorProAI",
+    "competitors": "Autres",
+    "quality": "Qualité",
+    "speed": "Vitesse",
+    "formats": "Formats de Fichier",
+    "watermark": "Filigranes",
+    "signup": "Inscription Requise",
+    "cost": "Coût",
+    "yes": "Oui",
+    "no": "Non",
+    "limited": "Limité",
+    "fast": "Rapide",
+    "slow": "Lent",
+    "high": "Élevée",
+    "low": "Faible",
+    "free": "Gratuit",
+    "paid": "Payant",
+    "all": "Tous les Formats"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur la vectorisation",
+    "q1": "Qu'est-ce que la vectorisation d'images?",
+    "a1": "La vectorisation d'images est le processus de conversion d'images raster (composées de pixels) en graphiques vectoriels (composés de chemins mathématiques). Cela permet à l'image d'être redimensionnée à n'importe quelle taille sans perdre de qualité, la rendant parfaite pour les logos, icônes et matériaux d'impression.",
+    "q2": "Quels formats de fichier puis-je convertir?",
+    "a2": "VectorProAI supporte tous les formats d'image courants incluant PNG, JPG/JPEG, WEBP, BMP et GIF. Téléchargez simplement votre image et nous la convertirons en format SVG de haute qualité.",
+    "q3": "VectorProAI est-il vraiment gratuit?",
+    "a3": "Oui! VectorProAI est entièrement gratuit à utiliser sans frais cachés, sans inscription requise et sans filigranes sur vos téléchargements. Nous croyons que la vectorisation de qualité professionnelle devrait être accessible à tous.",
+    "q4": "Combien de temps prend la conversion?",
+    "a4": "La plupart des conversions se terminent en 1-3 secondes, selon la taille et la complexité de l'image. Notre algorithme optimisé assure un traitement rapide sans compromettre la qualité.",
+    "q5": "Puis-je utiliser le SVG à des fins commerciales?",
+    "a5": "Absolument! Tous les fichiers SVG que vous téléchargez de VectorProAI sont à vous pour n'importe quel usage, y compris des projets commerciaux, sans aucune attribution requise.",
+    "q6": "Que dois-je faire si la qualité n'est pas parfaite?",
+    "a6": "Essayez d'ajuster le préréglage de qualité, le niveau de détail et les paramètres de couleur. Des paramètres de qualité plus élevés avec plus de niveaux de détail produiront de meilleurs résultats, bien qu'ils puissent prendre un peu plus de temps à traiter."
+  },
+  "footer": {
+    "description": "Convertisseur d'images en SVG gratuit en ligne avec vectorisation avancée. Transformez des images PNG, JPG, WEBP en graphiques vectoriels évolutifs.",
+    "convert": "Convertir",
+    "howItWorks": "Comment Ça Marche",
+    "features": "Fonctionnalités",
+    "compare": "Comparer",
+    "faq": "FAQ",
+    "language": "Langue"
+  },
+  "language": {
+    "select": "Sélectionner la Langue",
+    "switchTo": "Changer en"
+  },
+  "toasts": {
+    "success": "Succès!",
+    "error": "Erreur",
+    "vectorizeSuccess": "Image vectorisée avec succès!",
+    "vectorizeError": "Échec de la vectorisation. Veuillez réessayer.",
+    "downloadSuccess": "SVG téléchargé avec succès!",
+    "selectImage": "Veuillez d'abord sélectionner une image"
+  }
+}

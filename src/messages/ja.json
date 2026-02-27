@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "VectorProAI",
+    "description": "無料の画像からSVGへの変換ツール"
+  },
+  "nav": {
+    "convert": "変換",
+    "howItWorks": "使い方",
+    "features": "機能",
+    "compare": "比較",
+    "faq": "よくある質問",
+    "startVectorizing": "ベクトル化を開始"
+  },
+  "hero": {
+    "title": "画像を完璧なSVGベクトルに変換",
+    "subtitle": "最高品質の無料オンライン画像からSVGコンバーター。透かしなし、登録不要。",
+    "cta": "変換を開始"
+  },
+  "tool": {
+    "title": "画像をSVGに変換",
+    "subtitle": "任意の画像をアップロードして、美しいスケーラブルなベクターグラフィックに変換されるのをご覧ください"
+  },
+  "upload": {
+    "dragDrop": "画像をここにドラッグ＆ドロップ、またはクリックして参照",
+    "supportedFormats": "PNG、JPG、WEBP、BMP、GIFをサポート（最大10MB）",
+    "changeImage": "画像を変更",
+    "clear": "クリア"
+  },
+  "settings": {
+    "title": "設定",
+    "quality": "品質",
+    "qualityHigh": "高",
+    "qualityMedium": "中",
+    "qualityLow": "低",
+    "colorMode": "カラーモード",
+    "colorFull": "フルカラー",
+    "colorGrayscale": "グレースケール",
+    "colorBlackWhite": "白黒",
+    "colorSimplification": "色の単純化",
+    "simplificationPrecise": "精密",
+    "simplificationBalanced": "バランス",
+    "simplificationSimplified": "シンプル",
+    "detailLevel": "詳細レベル",
+    "smoothing": "スムージング",
+    "noiseReduction": "ノイズ低減",
+    "cornerDetection": "コーナー検出",
+    "optimization": "最適化レベル",
+    "convertButton": "SVGに変換"
+  },
+  "preview": {
+    "original": "オリジナル",
+    "vectorized": "ベクトル化",
+    "note": "SVGプレビューはプレビューモードでのみ少しトリミングされて表示される場合があります。",
+    "download": "SVGをダウンロード",
+    "downloadAll": "すべてダウンロード"
+  },
+  "howItWorks": {
+    "title": "使い方",
+    "subtitle": "完璧なベクターグラフィックへの3つの簡単なステップ",
+    "step1": "画像をアップロード",
+    "step1Desc": "PNG、JPG、またはその他の画像形式をドラッグ＆ドロップまたはクリックしてアップロードします。最大10MBのファイルをサポート。",
+    "step2": "設定を調整",
+    "step2Desc": "品質プリセット、カラーモードを選択し、詳細レベル、スムージング、最適化を微調整します。",
+    "step3": "SVGをダウンロード",
+    "step3Desc": "変換をクリックすると、数秒で完璧にベクトル化されたSVGが取得できます。ベクターソフトウェアで編集可能。"
+  },
+  "features": {
+    "title": "VectorProAIを選ぶ理由",
+    "subtitle": "最先端技術によるプロレベルのベクトル化",
+    "feature1": "超高速",
+    "feature1Desc": "最適化されたアルゴリズムで画像を数秒でSVGに変換。待ち時間なし、即座に結果を表示。",
+    "feature2": "高品質",
+    "feature2Desc": "高度なベクトル化が詳細を保存し、常にクリーンでプロフェッショナルなベクターを生成。",
+    "feature3": "複数のフォーマット",
+    "feature3Desc": "PNG、JPG、WEBP、BMP、GIFをサポート。任意の画像をアップロードして完璧なSVGを取得。",
+    "feature4": "スマートなコントロール",
+    "feature4Desc": "品質、色、詳細を微調整。必要なベクター出力を正確に取得。",
+    "feature5": "透かしなし",
+    "feature5Desc": "透かしのないクリーンなSVGファイルをダウンロード。商用または個人用途など、あらゆる目的で使用可能。",
+    "feature6": "無制限＆無料",
+    "feature6Desc": "ファイルサイズや変換回数に制限なし。永遠に完全に無料。"
+  },
+  "comparison": {
+    "title": "VectorProAIと他社を比較",
+    "subtitle": "プロフェッショナルが選ぶ理由をご覧ください",
+    "feature": "機能",
+    "vectorproai": "VectorProAI",
+    "competitors": "他社",
+    "quality": "品質",
+    "speed": "速度",
+    "formats": "ファイル形式",
+    "watermark": "透かし",
+    "signup": "登録必須",
+    "cost": "コスト",
+    "yes": "はい",
+    "no": "いいえ",
+    "limited": "制限あり",
+    "fast": "高速",
+    "slow": "低速",
+    "high": "高",
+    "low": "低",
+    "free": "無料",
+    "paid": "有料",
+    "all": "すべての形式"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "ベクトル化について知っておくべきすべて",
+    "q1": "画像のベクトル化とは何ですか？",
+    "a1": "画像のベクトル化は、ラスター画像（ピクセルで構成）をベクターグラフィック（数学的パスで構成）に変換するプロセスです。これにより、品質を失うことなく画像を任意のサイズにスケーリングできるため、ロゴ、アイコン、印刷物に最適です。",
+    "q2": "変換できるファイル形式は何ですか？",
+    "a2": "VectorProAIは、PNG、JPG/JPEG、WEBP、BMP、GIFを含むすべての一般的な画像形式をサポートしています。画像をアップロードするだけで、高品質のSVG形式に変換します。",
+    "q3": "VectorProAIは本当に無料ですか？",
+    "a3": "はい！VectorProAIは完全に無料で使用でき、隠れた料金なし、登録不要、ダウンロードに透かしはありません。プロ品質のベクトル化は誰でも利用できるべきだと私たちは信じています。",
+    "q4": "変換にはどのくらい時間がかかりますか？",
+    "a4": "ほとんどの変換は画像のサイズと複雑さに応じて1〜3秒以内に完了します。最適化されたアルゴリズムにより、品質を損なうことなく高速な処理が保証されています。",
+    "q5": "SVGを商用目的で使用できますか？",
+    "a5": "もちろんです！VectorProAIからダウンロードするすべてのSVGファイルは、帰属不要で、商業プロジェクトを含むあらゆる目的で自由に使用できます。",
+    "q6": "品質が完璧でない場合はどうすればよいですか？",
+    "a6": "品質プリセット、詳細レベル、色の設定を調整してみてください。より高い品質設定とより多くの詳細レベルでより良い結果が得られますが、処理に少し時間がかかる場合があります。"
+  },
+  "footer": {
+    "description": "高度なベクトル化を備えた無料のオンライン画像からSVGコンバーター。PNG、JPG、WEBP画像をスケーラブルなベクターグラフィックに変換。",
+    "convert": "変換",
+    "howItWorks": "使い方",
+    "features": "機能",
+    "compare": "比較",
+    "faq": "よくある質問",
+    "language": "言語"
+  },
+  "language": {
+    "select": "言語を選択",
+    "switchTo": "切り替え"
+  },
+  "toasts": {
+    "success": "成功！",
+    "error": "エラー",
+    "vectorizeSuccess": "画像のベクトル化が正常に完了しました！",
+    "vectorizeError": "画像のベクトル化に失敗しました。もう一度お試しください。",
+    "downloadSuccess": "SVGが正常にダウンロードされました！",
+    "selectImage": "最初に画像を選択してください"
+  }
+}

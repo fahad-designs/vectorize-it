@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "VectorProAI",
+    "description": "免费图片转SVG转换器"
+  },
+  "nav": {
+    "convert": "转换",
+    "howItWorks": "使用方法",
+    "features": "功能",
+    "compare": "比较",
+    "faq": "常见问题",
+    "startVectorizing": "开始矢量化"
+  },
+  "hero": {
+    "title": "将您的图片转换为完美的SVG矢量图",
+    "subtitle": "具有卓越品质的免费在线图片转SVG转换器。无水印，无需注册。",
+    "cta": "开始转换"
+  },
+  "tool": {
+    "title": "将图片转换为SVG",
+    "subtitle": "上传任意图片，观看其转换为美丽、可缩放的矢量图形"
+  },
+  "upload": {
+    "dragDrop": "将图片拖放到此处，或点击浏览",
+    "supportedFormats": "支持PNG、JPG、WEBP、BMP、GIF（最大10MB）",
+    "changeImage": "更改图片",
+    "clear": "清除"
+  },
+  "settings": {
+    "title": "设置",
+    "quality": "质量",
+    "qualityHigh": "高",
+    "qualityMedium": "中",
+    "qualityLow": "低",
+    "colorMode": "颜色模式",
+    "colorFull": "全彩",
+    "colorGrayscale": "灰度",
+    "colorBlackWhite": "黑白",
+    "colorSimplification": "颜色简化",
+    "simplificationPrecise": "精确",
+    "simplificationBalanced": "平衡",
+    "simplificationSimplified": "简化",
+    "detailLevel": "细节级别",
+    "smoothing": "平滑",
+    "noiseReduction": "降噪",
+    "cornerDetection": "角点检测",
+    "optimization": "优化级别",
+    "convertButton": "转换为SVG"
+  },
+  "preview": {
+    "original": "原始",
+    "vectorized": "矢量化",
+    "note": "SVG预览在预览模式下可能会显示略有裁剪。",
+    "download": "下载SVG",
+    "downloadAll": "下载全部"
+  },
+  "howItWorks": {
+    "title": "使用方法",
+    "subtitle": "完美矢量图形的三个简单步骤",
+    "step1": "上传图片",
+    "step1Desc": "拖放或点击上传您的PNG、JPG或其他图片格式。支持最大10MB的文件。",
+    "step2": "调整设置",
+    "step2Desc": "选择质量预设、颜色模式，并微调细节级别、平滑和优化。",
+    "step3": "下载SVG",
+    "step3Desc": "点击转换，几秒钟内即可获得完美矢量化的SVG。可在任何矢量软件中编辑。"
+  },
+  "features": {
+    "title": "为什么选择VectorProAI？",
+    "subtitle": "采用尖端技术的专业级矢量化",
+    "feature1": "闪电般快速",
+    "feature1Desc": "使用我们的优化算法在几秒钟内将图片转换为SVG。无需等待，即时获得结果。",
+    "feature2": "高质量",
+    "feature2Desc": "高级矢量化保留细节，每次都产生干净、专业的矢量图。",
+    "feature3": "多种格式",
+    "feature3Desc": "支持PNG、JPG、WEBP、BMP和GIF。上传任何图片并获得完美的SVG。",
+    "feature4": "智能控制",
+    "feature4Desc": "微调质量、颜色和细节。获得您需要的精确矢量输出。",
+    "feature5": "无水印",
+    "feature5Desc": "下载干净的SVG文件，没有任何水印。可用于任何目的，商业或个人。",
+    "feature6": "无限制且免费",
+    "feature6Desc": "对文件大小或转换次数没有限制。完全免费，永久使用。"
+  },
+  "comparison": {
+    "title": "VectorProAI与其他对比",
+    "subtitle": "看看为什么专业人士选择我们",
+    "feature": "功能",
+    "vectorproai": "VectorProAI",
+    "competitors": "其他",
+    "quality": "质量",
+    "speed": "速度",
+    "formats": "文件格式",
+    "watermark": "水印",
+    "signup": "需要注册",
+    "cost": "费用",
+    "yes": "是",
+    "no": "否",
+    "limited": "有限",
+    "fast": "快",
+    "slow": "慢",
+    "high": "高",
+    "low": "低",
+    "free": "免费",
+    "paid": "付费",
+    "all": "所有格式"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于矢量化您需要了解的一切",
+    "q1": "什么是图片矢量化？",
+    "a1": "图片矢量化是将光栅图片（由像素组成）转换为矢量图形（由数学路径组成）的过程。这使得图片可以在不损失质量的情况下缩放到任何尺寸，非常适合标志、图标和印刷材料。",
+    "q2": "我可以转换哪些文件格式？",
+    "a2": "VectorProAI支持所有常见的图片格式，包括PNG、JPG/JPEG、WEBP、BMP和GIF。只需上传您的图片，我们就会将其转换为高质量的SVG格式。",
+    "q3": "VectorProAI真的免费吗？",
+    "a3": "是的！VectorProAI完全免费使用，没有隐藏费用，无需注册，下载没有任何水印。我们认为专业质量的矢量化应该对每个人都可用。",
+    "q4": "转换需要多长时间？",
+    "a4": "大多数转换在1-3秒内完成，具体取决于图片的大小和复杂性。我们的优化算法确保快速处理而不影响质量。",
+    "q5": "我可以将SVG用于商业目的吗？",
+    "a5": "当然可以！您从VectorProAI下载的所有SVG文件都可以用于任何目的，包括商业项目，无需注明出处。",
+    "q6": "如果质量不完美，我该怎么办？",
+    "a6": "尝试调整质量预设、细节级别和颜色设置。更高的质量设置和更多的细节级别会产生更好的结果，尽管可能需要稍长的时间来处理。"
+  },
+  "footer": {
+    "description": "具有高级矢量化功能的免费在线图片转SVG转换器。将PNG、JPG、WEBP图片转换为可缩放的矢量图形。",
+    "convert": "转换",
+    "howItWorks": "使用方法",
+    "features": "功能",
+    "compare": "比较",
+    "faq": "常见问题",
+    "language": "语言"
+  },
+  "language": {
+    "select": "选择语言",
+    "switchTo": "切换到"
+  },
+  "toasts": {
+    "success": "成功！",
+    "error": "错误",
+    "vectorizeSuccess": "图片矢量化成功！",
+    "vectorizeError": "图片矢量化失败。请重试。",
+    "downloadSuccess": "SVG下载成功！",
+    "selectImage": "请先选择图片"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "VectorProAI",
+    "description": "무료 이미지 to SVG 변환기"
+  },
+  "nav": {
+    "convert": "변환",
+    "howItWorks": "작동 방식",
+    "features": "기능",
+    "compare": "비교",
+    "faq": "자주 묻는 질문",
+    "startVectorizing": "벡터화 시작"
+  },
+  "hero": {
+    "title": "이미지를 완벽한 SVG 벡터로 변환하세요",
+    "subtitle": "최고 품질의 무료 온라인 이미지 to SVG 변환기. 워터마크 없음, 가입 불필요.",
+    "cta": "변환 시작"
+  },
+  "tool": {
+    "title": "이미지를 SVG로 변환",
+    "subtitle": "모든 이미지를 업로드하고 아름답고 확장 가능한 벡터 그래픽으로 변환되는 과정을 확인하세요"
+  },
+  "upload": {
+    "dragDrop": "이미지를 여기에 드래그 앤 드롭하거나 클릭하여 찾아보기",
+    "supportedFormats": "PNG, JPG, WEBP, BMP, GIF 지원 (최대 10MB)",
+    "changeImage": "이미지 변경",
+    "clear": "지우기"
+  },
+  "settings": {
+    "title": "설정",
+    "quality": "품질",
+    "qualityHigh": "높음",
+    "qualityMedium": "중간",
+    "qualityLow": "낮음",
+    "colorMode": "색상 모드",
+    "colorFull": "풀 컬러",
+    "colorGrayscale": "그레이스케일",
+    "colorBlackWhite": "흑백",
+    "colorSimplification": "색상 단순화",
+    "simplificationPrecise": "정밀",
+    "simplificationBalanced": "균형",
+    "simplificationSimplified": "단순화",
+    "detailLevel": "세부 수준",
+    "smoothing": "스무딩",
+    "noiseReduction": "노이즈 감소",
+    "cornerDetection": "모서리 감지",
+    "optimization": "최적화 수준",
+    "convertButton": "SVG로 변환"
+  },
+  "preview": {
+    "original": "원본",
+    "vectorized": "벡터화",
+    "note": "SVG 미리보기는 미리보기 모드에서만 약간 잘려서 표시될 수 있습니다.",
+    "download": "SVG 다운로드",
+    "downloadAll": "모두 다운로드"
+  },
+  "howItWorks": {
+    "title": "작동 방식",
+    "subtitle": "완벽한 벡터 그래픽을 위한 3가지 간단한 단계",
+    "step1": "이미지 업로드",
+    "step1Desc": "PNG, JPG 또는 기타 이미지 형식을 드래그 앤 드롭하거나 클릭하여 업로드합니다. 최대 10MB 파일 지원.",
+    "step2": "설정 조정",
+    "step2Desc": "품질 프리셋, 색상 모드를 선택하고 세부 수준, 스무딩, 최적화를 미세 조정합니다.",
+    "step3": "SVG 다운로드",
+    "step3Desc": "변환을 클릭하면 몇 초 만에 완벽하게 벡터화된 SVG를 받을 수 있습니다. 모든 벡터 소프트웨어에서 편집 가능."
+  },
+  "features": {
+    "title": "VectorProAI를 선택해야 하는 이유",
+    "subtitle": "최첨단 기술로 프로급 벡터화",
+    "feature1": "번개처럼 빠름",
+    "feature1Desc": "최적화된 알고리즘으로 이미지를 몇 초 만에 SVG로 변환합니다. 대기 없이 즉시 결과 확인.",
+    "feature2": "높은 품질",
+    "feature2Desc": "고급 벡터화로 세부 사항을 보존하고 항상 깔끔하고 전문적인 벡터를 생성합니다.",
+    "feature3": "다양한 형식",
+    "feature3Desc": "PNG, JPG, WEBP, BMP, GIF 지원. 모든 이미지를 업로드하고 완벽한 SVG를 받으세요.",
+    "feature4": "스마트 제어",
+    "feature4Desc": "품질, 색상, 세부 사항을 미세 조정하세요. 필요한 벡터 출력을 정확하게 얻을 수 있습니다.",
+    "feature5": "워터마크 없음",
+    "feature5Desc": "워터마크 없는 깨끗한 SVG 파일을 다운로드하세요. 상업용 또는 개인용 등 모든 목적으로 사용 가능.",
+    "feature6": "무제한 & 무료",
+    "feature6Desc": "파일 크기나 변환 횟수에 제한 없음. 영원히 완전히 무료."
+  },
+  "comparison": {
+    "title": "VectorProAI와 다른 서비스 비교",
+    "subtitle": "전문가가 우리를 선택하는 이유를 확인하세요",
+    "feature": "기능",
+    "vectorproai": "VectorProAI",
+    "competitors": "다른 서비스",
+    "quality": "품질",
+    "speed": "속도",
+    "formats": "파일 형식",
+    "watermark": "워터마크",
+    "signup": "가입 필요",
+    "cost": "비용",
+    "yes": "예",
+    "no": "아니오",
+    "limited": "제한됨",
+    "fast": "빠름",
+    "slow": "느림",
+    "high": "높음",
+    "low": "낮음",
+    "free": "무료",
+    "paid": "유료",
+    "all": "모든 형식"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "벡터화에 대해 알아야 할 모든 것",
+    "q1": "이미지 벡터화란 무엇인가요?",
+    "a1": "이미지 벡터화는 래스터 이미지(픽셀로 구성)를 벡터 그래픽(수학적 경로로 구성)으로 변환하는 과정입니다. 이를 통해 품질 손실 없이 이미지를 모든 크기로 확장할 수 있어 로고, 아이콘, 인쇄물에 완벽합니다.",
+    "q2": "변환할 수 있는 파일 형식은 무엇인가요?",
+    "a2": "VectorProAI는 PNG, JPG/JPEG, WEBP, BMP, GIF를 포함한 모든 일반적인 이미지 형식을 지원합니다. 이미지를 업로드하기만 하면 고품질 SVG 형식으로 변환해 드립니다.",
+    "q3": "VectorProAI는 정말 무료인가요?",
+    "a3": "네! VectorProAI는 숨겨진 수수료 없이 완전히 무료로 사용할 수 있으며, 가입이 필요하지 않고 다운로드에 워터마크가 없습니다. 우리는 프로급 품질의 벡터화가 모든 사람에게 접근 가능해야 한다고 믿습니다.",
+    "q4": "변환하는 데 얼마나 걸리나요?",
+    "a4": "대부분의 변환은 이미지 크기와 복잡성에 따라 1-3초 이내에 완료됩니다. 최적화된 알고리즘으로 품질을 타협하지 않고 빠른 처리를 보장합니다.",
+    "q5": "SVG를 상업적 목적으로 사용할 수 있나요?",
+    "a5": "물론입니다! VectorProAI에서 다운로드하는 모든 SVG 파일은 저작자 표시 없이 상업 프로젝트를 포함한 모든 목적으로 자유롭게 사용할 수 있습니다.",
+    "q6": "품질이 완벽하지 않으면 어떻게 해야 하나요?",
+    "a6": "품질 프리셋, 세부 수준 및 색상 설정을 조정해 보세요. 더 높은 품질 설정과 더 많은 세부 수준으로 더 나은 결과를 얻을 수 있지만 처리 시간이 약간 더 걸릴 수 있습니다."
+  },
+  "footer": {
+    "description": "고급 벡터화를 갖춘 무료 온라인 이미지 to SVG 변환기. PNG, JPG, WEBP 이미지를 확장 가능한 벡터 그래픽으로 변환하세요.",
+    "convert": "변환",
+    "howItWorks": "작동 방식",
+    "features": "기능",
+    "compare": "비교",
+    "faq": "자주 묻는 질문",
+    "language": "언어"
+  },
+  "language": {
+    "select": "언어 선택",
+    "switchTo": "전환"
+  },
+  "toasts": {
+    "success": "성공!",
+    "error": "오류",
+    "vectorizeSuccess": "이미지가 성공적으로 벡터화되었습니다!",
+    "vectorizeError": "이미지 벡터화에 실패했습니다. 다시 시도해 주세요.",
+    "downloadSuccess": "SVG가 성공적으로 다운로드되었습니다!",
+    "selectImage": "먼저 이미지를 선택해 주세요"
+  }
+}
