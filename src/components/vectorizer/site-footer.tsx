@@ -2,8 +2,11 @@
 
 import { Github, Twitter, Mail, Heart } from 'lucide-react'
 import { Separator } from '@/components/ui/separator'
+import { useTranslations } from 'next-intl'
 
 export function SiteFooter() {
+  const t = useTranslations('footer')
+  
   return (
     <footer className="mt-auto border-t bg-white dark:bg-slate-950">
       <div className="container px-4 py-12">
@@ -14,8 +17,7 @@ export function SiteFooter() {
               VectorProAI
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400">
-              Professional-quality image vectorization, completely free.
-              Transform your images into scalable SVG vectors in seconds.
+              {t('description')}
             </p>
           </div>
 
@@ -30,7 +32,7 @@ export function SiteFooter() {
                   href="#features"
                   className="text-slate-600 transition-colors hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
                 >
-                  Features
+                  {t('features')}
                 </a>
               </li>
               <li>
@@ -38,7 +40,7 @@ export function SiteFooter() {
                   href="#how-it-works"
                   className="text-slate-600 transition-colors hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
                 >
-                  How It Works
+                  {t('howItWorks')}
                 </a>
               </li>
               <li>
@@ -46,7 +48,7 @@ export function SiteFooter() {
                   href="#comparison"
                   className="text-slate-600 transition-colors hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
                 >
-                  Compare
+                  {t('compare')}
                 </a>
               </li>
               <li>
@@ -54,7 +56,7 @@ export function SiteFooter() {
                   href="#faq"
                   className="text-slate-600 transition-colors hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
                 >
-                  FAQ
+                  {t('faq')}
                 </a>
               </li>
             </ul>
@@ -136,7 +138,7 @@ export function SiteFooter() {
 
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-slate-600 dark:text-slate-400">
-            © {new Date().getFullYear()} VectorProAI. All rights reserved.
+            {t('copyright')}
           </p>
           <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
             Made with <Heart className="h-4 w-4 fill-red-500 text-red-500" /> for designers

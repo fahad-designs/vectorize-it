@@ -4,8 +4,11 @@ import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles, Zap, Shield } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { useTranslations } from 'next-intl'
 
 export function HeroSection() {
+  const t = useTranslations('hero')
+  
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-emerald-50/30 to-white dark:from-slate-950 dark:via-emerald-950/20 dark:to-slate-900">
       {/* Background Pattern */}
@@ -23,7 +26,7 @@ export function HeroSection() {
           >
             <Badge className="mb-4 bg-emerald-100 text-emerald-700 hover:bg-emerald-200 dark:bg-emerald-900/30 dark:text-emerald-400 dark:hover:bg-emerald-900/40">
               <Sparkles className="mr-1 h-3 w-3" />
-              Free & Unlimited
+              {t('badge')}
             </Badge>
           </motion.div>
 
@@ -33,9 +36,9 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Transform Any Image into{' '}
+            {t('title')}{' '}
             <span className="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent dark:from-emerald-400 dark:to-emerald-300">
-              Perfect SVG Vectors
+              {t('titleHighlight')}
             </span>
           </motion.h1>
 
@@ -45,8 +48,7 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mx-auto mb-8 max-w-2xl text-lg text-slate-600 dark:text-slate-300 sm:text-xl"
           >
-            Professional-quality vectorization powered by advanced AI algorithms.
-            Convert PNG, JPG, and more to scalable SVG in seconds.
+            {t('subtitle')}
           </motion.p>
 
           <motion.div
@@ -62,7 +64,7 @@ export function HeroSection() {
                 document.getElementById('upload-section')?.scrollIntoView({ behavior: 'smooth' })
               }}
             >
-              Start Vectorizing Now
+              {t('cta')}
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </motion.div>
@@ -77,24 +79,24 @@ export function HeroSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-900/30">
                 <Zap className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-slate-100">Lightning Fast</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-400">Convert in under 10 seconds</p>
+              <h3 className="font-semibold text-slate-900 dark:text-slate-100">{t('feature1Title')}</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-400">{t('feature1Desc')}</p>
             </div>
 
             <div className="flex flex-col items-center gap-2">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900/30">
                 <Sparkles className="h-6 w-6 text-amber-600 dark:text-amber-400" />
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-slate-100">Superior Quality</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-400">Industry-leading precision</p>
+              <h3 className="font-semibold text-slate-900 dark:text-slate-100">{t('feature2Title')}</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-400">{t('feature2Desc')}</p>
             </div>
 
             <div className="flex flex-col items-center gap-2">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
                 <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-slate-100">100% Free</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-400">No signup or watermarks</p>
+              <h3 className="font-semibold text-slate-900 dark:text-slate-100">{t('feature3Title')}</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-400">{t('feature3Desc')}</p>
             </div>
           </motion.div>
         </div>

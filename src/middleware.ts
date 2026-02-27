@@ -8,14 +8,16 @@ export default createMiddleware({
   // Used when no locale matches
   defaultLocale,
 
-  // Always use locale prefix
+  // Always use locale prefix for non-default locales only
+  // Default locale (en) has no prefix, others have prefix
   localePrefix: 'as-needed',
 
-  // Detect locale from Accept-Language header
-  localeDetection: true
+  // Disable automatic locale detection from browser headers
+  // This ensures English is always the default
+  localeDetection: false
 });
 
 export const config = {
-  // Match only internationalized pathnames
-  matcher: ['/', '/(de|es|fr|pt|ja|ko|zh|ar|hi)/:path*']
+  // Match all pathnames except for static files, api, etc.
+  matcher: ['/', '/(en|de|es|fr|pt|ja|ko|zh|ar|hi)/:path*']
 };

@@ -3,41 +3,22 @@
 import { motion } from 'framer-motion'
 import { Zap, Palette, Download, Shield, Settings, Globe } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
+import { useTranslations } from 'next-intl'
 
-const features = [
-  {
-    icon: Zap,
-    title: 'Lightning Fast',
-    description: 'Convert images to SVG in under 10 seconds with our optimized vectorization engine.'
-  },
-  {
-    icon: Palette,
-    title: 'Full Color Support',
-    description: 'Preserve all colors from your original image with intelligent color quantization.'
-  },
-  {
-    icon: Download,
-    title: 'One-Click Download',
-    description: 'Download your vectorized SVG instantly or copy the code to clipboard.'
-  },
-  {
-    icon: Shield,
-    title: 'Privacy First',
-    description: 'Your images are processed securely and never stored on our servers.'
-  },
-  {
-    icon: Settings,
-    title: 'Advanced Controls',
-    description: 'Fine-tune detail level, smoothing, and optimization for perfect results.'
-  },
-  {
-    icon: Globe,
-    title: 'Works Everywhere',
-    description: 'Use on any device - desktop, tablet, or mobile. No installation needed.'
-  }
-]
+const featureIcons = [Zap, Palette, Download, Shield, Settings, Globe]
 
 export function FeaturesSection() {
+  const t = useTranslations('features')
+  
+  const features = [
+    { icon: Zap, title: t('feature1Title'), description: t('feature1Desc') },
+    { icon: Palette, title: t('feature2Title'), description: t('feature2Desc') },
+    { icon: Download, title: t('feature3Title'), description: t('feature3Desc') },
+    { icon: Shield, title: t('feature4Title'), description: t('feature4Desc') },
+    { icon: Settings, title: t('feature5Title'), description: t('feature5Desc') },
+    { icon: Globe, title: t('feature6Title'), description: t('feature6Desc') }
+  ]
+
   return (
     <>
       <motion.div
@@ -48,10 +29,10 @@ export function FeaturesSection() {
         className="mb-12 text-center"
       >
         <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-          Why Choose VectorPro AI?
+          {t('title')}
         </h2>
         <p className="mx-auto max-w-2xl text-lg text-slate-600 dark:text-slate-400">
-          Professional-grade vectorization with features that rival paid tools
+          {t('subtitle')}
         </p>
       </motion.div>
 

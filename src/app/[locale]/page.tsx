@@ -16,8 +16,14 @@ import { FAQSection } from '@/components/vectorizer/faq-section'
 import { ContentSection } from '@/components/vectorizer/content-section'
 import { SiteFooter } from '@/components/vectorizer/site-footer'
 import { toast } from 'sonner'
+import { useTranslations } from 'next-intl'
 
 export default function Home() {
+  const t = useTranslations('tool')
+  const tHowItWorks = useTranslations('howItWorks')
+  const tSettings = useTranslations('settings')
+  const tToasts = useTranslations('toasts')
+  
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [originalImage, setOriginalImage] = useState<string | null>(null)
   const [vectorizedSvg, setVectorizedSvg] = useState<string | null>(null)
@@ -53,7 +59,7 @@ export default function Home() {
 
   const handleVectorize = useCallback(async () => {
     if (!selectedFile || !originalImage) {
-      toast.error('Please select an image first')
+      toast.error(tToasts('selectImage'))
       return
     }
 
@@ -80,17 +86,17 @@ export default function Home() {
 
       if (data.success && data.svg) {
         setVectorizedSvg(data.svg)
-        toast.success('Image vectorized successfully!')
+        toast.success(tToasts('vectorizeSuccess'))
       } else {
         throw new Error(data.error || 'Unknown error')
       }
     } catch (error) {
       console.error('Vectorization error:', error)
-      toast.error('Failed to vectorize image. Please try again.')
+      toast.error(tToasts('vectorizeError'))
     } finally {
       setIsProcessing(false)
     }
-  }, [selectedFile, originalImage, settings])
+  }, [selectedFile, originalImage, settings, tToasts])
 
   const handleDownload = useCallback(() => {
     if (!vectorizedSvg || !selectedFile) return
@@ -105,8 +111,26 @@ export default function Home() {
     document.body.removeChild(a)
     URL.revokeObjectURL(url)
 
-    toast.success('SVG downloaded successfully!')
-  }, [vectorizedSvg, selectedFile])
+    toast.success(tToasts('downloadSuccess'))
+  }, [vectorizedSvg, selectedFile, tToasts])
+
+  const howItWorksSteps = [
+    {
+      step: '01',
+      title: tHowItWorks('step1'),
+      description: tHowItWorks('step1Desc')
+    },
+    {
+      step: '02',
+      title: tHowItWorks('step2'),
+      description: tHowItWorks('step2Desc')
+    },
+    {
+      step: '03',
+      title: tHowItWorks('step3'),
+      description: tHowItWorks('step3Desc')
+    }
+  ]
 
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950">
@@ -127,10 +151,10 @@ export default function Home() {
             className="mb-12 text-center"
           >
             <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-              Convert Your Images to SVG
+              {t('title')}
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-slate-600 dark:text-slate-400">
-              Upload any image and watch it transform into a beautiful, scalable vector graphic
+              {t('subtitle')}
             </p>
           </motion.div>
 
@@ -159,12 +183,12 @@ export default function Home() {
                 {isProcessing ? (
                   <>
                     <RefreshCw className="mr-2 h-4 w-4 animate-spin" />
-                    Processing...
+                    {tSettings('processing')}
                   </>
                 ) : (
                   <>
                     <DownloadIcon className="mr-2 h-4 w-4" />
-                    Convert to SVG
+                    {tSettings('convertButton')}
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </>
                 )}
@@ -195,31 +219,15 @@ export default function Home() {
             className="mb-12 text-center"
           >
             <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-              How It Works
+              {tHowItWorks('title')}
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-slate-600 dark:text-slate-400">
-              Three simple steps to perfect vector graphics
+              {tHowItWorks('subtitle')}
             </p>
           </motion.div>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {[
-              {
-                step: '01',
-                title: 'Upload Your Image',
-                description: 'Drag and drop or click to upload your PNG, JPG, or other image format. Supports files up to 10MB.'
-              },
-              {
-                step: '02',
-                title: 'Adjust Settings',
-                description: 'Choose quality preset, color mode, and fine-tune detail level, smoothing, and optimization.'
-              },
-              {
-                step: '03',
-                title: 'Download SVG',
-                description: 'Click convert and get your perfectly vectorized SVG in seconds. Edit in any vector software.'
-              }
-            ].map((item, index) => (
+            {howItWorksSteps.map((item, index) => (
               <motion.div
                 key={item.step}
                 initial={{ opacity: 0, y: 20 }}

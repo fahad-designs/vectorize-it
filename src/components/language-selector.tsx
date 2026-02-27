@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { Globe, Check, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -18,7 +18,6 @@ interface LanguageSelectorProps {
 
 export function LanguageSelector({ currentLocale = 'en' }: LanguageSelectorProps) {
   const [open, setOpen] = useState(false);
-  const router = useRouter();
   const pathname = usePathname();
 
   const handleLocaleChange = (locale: Locale) => {
@@ -33,8 +32,8 @@ export function LanguageSelector({ currentLocale = 'en' }: LanguageSelectorProps
       ? `/${locale}/${segments.join('/')}`
       : `/${locale}`;
 
-    router.push(newPathname);
-    setOpen(false);
+    // Use full page navigation to avoid React/Google Translate DOM conflicts
+    window.location.assign(newPathname);
   };
 
   return (

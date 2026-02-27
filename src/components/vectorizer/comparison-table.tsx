@@ -1,9 +1,10 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Check, X, Star } from 'lucide-react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Star } from 'lucide-react'
+import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import { useTranslations } from 'next-intl'
 
 const competitors = [
   { name: 'VectorPro AI', quality: 5, speed: 5, price: 'Free', features: 5, highlight: true },
@@ -14,6 +15,8 @@ const competitors = [
 ]
 
 export function ComparisonTable() {
+  const t = useTranslations('comparison')
+  
   return (
     <>
       <motion.div
@@ -24,10 +27,10 @@ export function ComparisonTable() {
         className="mb-12 text-center"
       >
         <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-          Compare with Other Tools
+          {t('title')}
         </h2>
         <p className="mx-auto max-w-2xl text-lg text-slate-600 dark:text-slate-400">
-          See how VectorPro AI stacks up against the competition
+          {t('subtitle')}
         </p>
       </motion.div>
 
@@ -38,19 +41,19 @@ export function ComparisonTable() {
                 <thead>
                   <tr className="border-b bg-slate-50 dark:bg-slate-900/50">
                     <th className="px-6 py-4 text-left text-sm font-semibold text-slate-900 dark:text-slate-100">
-                      Tool
+                      {t('tool')}
                     </th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-slate-900 dark:text-slate-100">
-                      Quality
+                      {t('quality')}
                     </th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-slate-900 dark:text-slate-100">
-                      Speed
+                      {t('speed')}
                     </th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-slate-900 dark:text-slate-100">
-                      Price
+                      {t('price')}
                     </th>
                     <th className="px-6 py-4 text-center text-sm font-semibold text-slate-900 dark:text-slate-100">
-                      Features
+                      {t('features')}
                     </th>
                   </tr>
                 </thead>
@@ -73,7 +76,7 @@ export function ComparisonTable() {
                           </span>
                           {competitor.highlight && (
                             <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-200 dark:bg-emerald-900/30 dark:text-emerald-400 dark:hover:bg-emerald-900/40">
-                              Best Choice
+                              {t('bestChoice')}
                             </Badge>
                           )}
                         </div>
@@ -147,7 +150,7 @@ export function ComparisonTable() {
           className="mt-8 text-center"
         >
           <p className="text-slate-600 dark:text-slate-400">
-            * Comparison based on our testing and user reviews as of 2025
+            {t('footnote')}
           </p>
         </motion.div>
     </>
